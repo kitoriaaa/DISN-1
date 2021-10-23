@@ -31,18 +31,15 @@
         "watercraft"
     ],
     "raw_dirs_v1": {
-        "mesh_dir": "/ssd1/datasets/ShapeNet/ShapeNetCore.v1/",
-        "norm_mesh_dir": "/ssd1/datasets/ShapeNet/march_cube_objs_v1/",
-        "norm_mesh_dir_v2": "/ssd1/datasets/ShapeNet/march_cube_objs/",
-        "sdf_dir": "/ssd1/datasets/ShapeNet/SDF_v1/",
-        "sdf_dir_v2": "/ssd1/datasets/ShapeNet/SDF_v2/",
-        "rendered_dir": "/ssd1/datasets/ShapeNet/ShapeNetRendering/",
-        "rendered_new_dir": "/ssd1/datasets/ShapeNet/ShapeNetRendering.v1/",
-        "renderedh5_new_dir_easy": "/ssd1/datasets/ShapeNet/ShapeNetRenderingh5_v1_new_easy.v1/",
-        "renderedh5_new_dir_hard": "/ssd1/datasets/ShapeNet/ShapeNetRenderingh5_v1_new_hard.v1/",
-        "renderedh5_dir": "/ssd1/datasets/ShapeNet/ShapeNetRenderingh5_v1_more/",
-        "renderedh5_dir_v2": "/ssd1/datasets/ShapeNet/ShapeNetRenderingh5_v2/",
-        "renderedh5_dir_est": "/ssd1/datasets/ShapeNet/ShapeNetRenderingh5_v1_pred_3d/",
-        "3dnnsdf_dir": "/ssd1/datasets/ShapeNet/SDF_full/"
+        "mesh_dir": "/hdd01/datasets/ShapeNet/ShapeNetCore.v1/",
+        "norm_mesh_dir": "/ssd/datasets/ShapeNet/march_cube_objs_v1/",
+        "norm_mesh_dir_v2": "/hdd01/datasets/ShapeNet/march_cube_objs/",
+        "sdf_dir": "/ssd/datasets/ShapeNet/SDF_v1/",
+        "sdf_dir_v2": "/hdd01/datasets/ShapeNet/SDF_v2/",
+        "rendered_dir": "/ssd/datasets/ShapeNet/ShapeNetRendering/",
+        "renderedh5_dir": "/ssd/datasets/ShapeNet/ShapeNetRenderingh5_v1/",
+        "renderedh5_dir_v2": "/hdd01/datasets/ShapeNet/ShapeNetRenderingh5_v2/",
+        "renderedh5_dir_est": "/hdd01/datasets/ShapeNet/ShapeNetRenderingh5_v1_pred_3d/",
+        "3dnnsdf_dir": "/hdd01/datasets/ShapeNet/SDF_full/"
     }
 }
