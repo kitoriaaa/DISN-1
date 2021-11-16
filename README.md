@@ -52,6 +52,18 @@ Code contact: [Qiangeng Xu*](https://xharlie.github.io/) and [Weiyue Wang*](http
     cd ../../
     Install whatever libary(e.g. mkl) you don't have and change corresponding libary path in your system in isosurface/LIB_PATH
   ```
+
+## Docker Environments
+* ### bulid images
+  ```
+  cd {DISN}
+  docker build -t disn container
+  ```
+* ### Run container with GPU
+  ```
+  docker run -it --gpus all -v `pwd`:/usr/workspace -v /ssd1:/ssd1 --name disn disn
+  ```
+
 ## Demo:
  * --sdf_res control the resolution of the sampled sdf, default is 64, the larger, the more fine-grained, but slower.
   ```
@@ -189,3 +201,5 @@ Code contact: [Qiangeng Xu*](https://xharlie.github.io/) and [Weiyue Wang*](http
     ```
       nohup python -u test/test_iou.py --img_feat_twostream --view_num 24 --log_dir checkpoint/{your training checkpoint dir} --cal_dir checkpoint/{your training checkpoint dir}/test_objs/65_0.0 --category all --dim 110 &> DISN_iou_all.log &
     ```
+
+
